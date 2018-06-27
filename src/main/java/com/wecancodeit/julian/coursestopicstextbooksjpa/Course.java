@@ -21,10 +21,9 @@ public class Course
 	private String description;
 	
 	protected Course() {}
-	public Course(String title, String description, Topic ...topics) {
+	public Course(String title, String description) {
 		this.title = title;
 		this.description = description;
-		this.topics = new ArrayList<>(Arrays.asList(topics));
 	}
 	
 	@Override
